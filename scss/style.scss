@@ -58,6 +58,7 @@ h1{
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
   margin: -120px auto 50px;
   border-radius: 10px;
+  min-height: calc(100vh - 325px);
 }
 
 .log{
@@ -195,5 +196,18 @@ ul {
     outline: none;
     -webkit-box-shadow: 0 0 0 3px #fff;
     box-shadow: 0 0 0 3px #fff;
+  }
+}
+
+
+footer {
+  padding: 15px;
+  background: #eee;
+  a {
+    font-size: 16px;
+    color: #000;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

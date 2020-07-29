@@ -38,6 +38,7 @@ $(document).on('click', function(event) {
 
 $('.emty').click(function(){
   $('.search').val('');
+  $('.log').hide()
   $(this).fadeOut().removeClass('hide');
   $('li').show();
 });
